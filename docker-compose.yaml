@@ -12,6 +12,7 @@ services:
     restart: always
     network_mode: "host"
     environment:
+    # 
       - TZ=America/Sao_Paulo
     volumes:
       # Monta o .env e o arquivo de credenciais para a aplicação ler as variáveis de ambiente

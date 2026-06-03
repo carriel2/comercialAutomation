@@ -337,7 +337,7 @@ def process_and_sync_sheets():
 
 
 if __name__ == "__main__":
-    from weeklyreportAutomation.weekly_report import send_weekly_report
+    from sheetsAutomation.weekly_report import send_weekly_report
 
     print("🚀 Robô iniciado com sucesso na nuvem!")
     print(
